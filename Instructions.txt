@@ -1,0 +1,39 @@
+﻿No need for recognition of values just syntax validation
+https://www.dabeaz.com/ply/ply.html
+
+Syntax Constructs:
+    • For loop:
+		for i in {1..5} OR {1 2 3 4 5}
+		do
+			statement
+		done
+    • While loop:
+		while [conditiion]
+		do
+			statement
+		done
+    • If then, elif then, else if then, else, fi:
+              if [condition]
+              then
+                      statement
+              elif [condition]
+              then
+                      statement
+              else
+		      statement
+	      fi
+                      
+    • Array:
+	
+		array_name=(v1 v2 v3)
+			[v1, v2 & v3 can be numbers]
+			[TO ACCESS → echo $(array_name[2])]	
+    • echo statement:
+		echo Hello World
+			"Hello World "returned
+
+NOTE 
+1){ } isnt required for if "1 2 3 4 5" is used but is needed for ".."
+2)condition and statement should be different things
+3)newlines can be replaced with ; if required
+
